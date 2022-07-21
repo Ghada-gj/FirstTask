@@ -1,9 +1,10 @@
-# FirstTask
+# FirstTask , ESP32 operating algorithm
 
 //esp32 operating algorithm
 //1-install Arduino IDE
 //2-installing ESP32 Add-on in Arduino IDE(Tools>Board>BoardManager>search: ESP32 and install it)
-//3-file>choose example>basics>blinc
+//3-connect ESP32 by usb(Arduino Uno>ESP32 Arduino>WEMOS D1 MINI ESP32)
+//4-file>choose example>basics>blinc>>upload
 
 void setup(){
   pinMode(LED_BUILTIN, OUTPUT);
